@@ -15859,6 +15859,16 @@ const devices = [
         },
         exposes: [e.power(), e.current(), e.voltage(), e.switch()],
     },
+     // JunYu
+    {
+        zigbeeModel: [
+            'ZB-RGBCW',
+        ],
+        model: 'ZB-RGBCW',
+        vendor: 'JunYu',
+        description: 'ZB-RGBCW, dimmable, white spectrum, opal white',
+        extend: generic.light_onoff_brightness_colortemp,
+    },
 ];
 
 
